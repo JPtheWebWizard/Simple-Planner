@@ -1,14 +1,24 @@
 body {
-    margin: 0;
     display: flex;
+    margin: 0;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: lightblue;
 }
 
 .container {
+    background-color: black;
+    width: 90vw;
+    height: 90vh;
+}
+
+.listBox {
     background-color: darkgrey;
     width: 90vw;
-    height: 90vw;
-    
+    height: 90vh;
+}
+
+#addBtn {
+    color: black;
 }
